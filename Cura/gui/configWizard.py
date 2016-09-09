@@ -484,7 +484,7 @@ class MachineSelectPage(InfoPage):
 			if self.Ultimaker2ExtRadio.GetValue() or self.Ultimaker2PlusExtRadio.GetValue():
 				profile.putMachineSetting('machine_width', '223')
 				profile.putMachineSetting('machine_depth', '223')
-				profile.putMachineSetting('machine_height', '315')
+				profile.putMachineSetting('machine_height', '305')
 				if self.Ultimaker2PlusExtRadio.GetValue():
 					profile.putMachineSetting('machine_name', 'Ultimaker 2 Extended+')
 					profile.putMachineSetting('machine_type', 'ultimaker2+extended')
@@ -501,10 +501,10 @@ class MachineSelectPage(InfoPage):
 				profile.putMachineSetting('has_heated_bed', 'False')
 			profile.putMachineSetting('machine_center_is_zero', 'False')
 			profile.putMachineSetting('gcode_flavor', 'UltiGCode')
-			profile.putMachineSetting('extruder_head_size_min_x', '40.0')
-			profile.putMachineSetting('extruder_head_size_min_y', '10.0')
-			profile.putMachineSetting('extruder_head_size_max_x', '60.0')
-			profile.putMachineSetting('extruder_head_size_max_y', '30.0')
+			profile.putMachineSetting('extruder_head_size_min_x', '42.0')
+			profile.putMachineSetting('extruder_head_size_min_y', '12.0')
+			profile.putMachineSetting('extruder_head_size_max_x', '62.0')
+			profile.putMachineSetting('extruder_head_size_max_y', '32.0')
 			profile.putMachineSetting('extruder_head_size_height', '48.0')
 			profile.putProfileSetting('nozzle_size', '0.4')
 			profile.putProfileSetting('fan_full_height', '5.0')
