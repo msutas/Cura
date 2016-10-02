@@ -625,8 +625,8 @@ if [ $BUILD_TARGET = "win32" ]; then
 	gitClone \
 	  ${CURA_ENGINE_REPO} \
 	  ${CURA_ENGINE_REPO_PUSHURL} \
-	  ${CURA_ENGINE_BRANCH} \
-	  CuraEngine
+	  CuraEngine \
+	  ${CURA_ENGINE_BRANCH}
     if [ $? != 0 ]; then echo "Failed to clone CuraEngine"; exit 1; fi
 fi
 
