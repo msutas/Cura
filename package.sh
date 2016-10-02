@@ -708,9 +708,9 @@ echo $BUILD_NAME > ${TARGET_DIR}/Cura/version
 if [ $BUILD_TARGET = "win32" ]; then
     cp -a scripts/${BUILD_TARGET}/*.bat $TARGET_DIR/
     cp CuraEngine/build/CuraEngine.exe $TARGET_DIR
-	cp /usr/lib/gcc/i686-w64-mingw32/4.8/libgcc_s_sjlj-1.dll $TARGET_DIR
-    cp /usr/i686-w64-mingw32/lib/libwinpthread-1.dll $TARGET_DIR
-    cp /usr/lib/gcc/i686-w64-mingw32/4.8/libstdc++-6.dll $TARGET_DIR
+	cp C:/mingw-w64/i686-4.8.1-posix-sjlj-rt_v3-rev2/mingw32/i686-w64-mingw32/lib/libgcc_s_sjlj-1.dll $TARGET_DIR
+    cp C:/mingw-w64/i686-4.8.1-posix-sjlj-rt_v3-rev2/mingw32/i686-w64-mingw32/lib/libwinpthread-1.dll $TARGET_DIR
+    cp C:/mingw-w64/i686-4.8.1-posix-sjlj-rt_v3-rev2/mingw32/i686-w64-mingw32/lib/libstdc++-6.dll $TARGET_DIR
 fi
 
 #package the result
