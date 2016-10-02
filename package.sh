@@ -729,10 +729,10 @@ if (( ${ARCHIVE_FOR_DISTRIBUTION} )); then
 #           if [ $? != 0 ]; then echo "Failed to package NSIS installer"; exit 1; fi
 #			mv scripts/win32/Cura_${BUILD_NAME}.exe ./
 #		fi
-		if [ -f '/c/Program Files (x86)/NSIS/makensis.exe' ]; then
+		if [ -f '/c/Program Files/NSIS/makensis.exe' ]; then
 			rm -rf scripts/win32/dist
 			mv "`pwd`/${TARGET_DIR}" scripts/win32/dist
-			'/c/Program Files (x86)/NSIS/makensis.exe' -DVERSION=${BUILD_NAME} 'scripts/win32/installer.nsi' >> log.txt
+			'/c/Program Files/NSIS/makensis.exe' -DVERSION=${BUILD_NAME} 'scripts/win32/installer.nsi' >> log.txt
             if [ $? != 0 ]; then echo "Failed to package NSIS installer"; exit 1; fi
 			mv scripts/win32/Cura_${BUILD_NAME}.exe ./
 		fi
