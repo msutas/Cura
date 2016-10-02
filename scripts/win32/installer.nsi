@@ -116,7 +116,7 @@ FunctionEnd
 
 ; Reserve Files
 !insertmacro MUI_RESERVEFILE_LANGDLL
-ReserveFile '${NSISDIR}\Plugins\InstallOptions.dll'
+ReserveFile '${NSISDIR}\Plugins\x86-unicode\InstallOptions.dll'
 ReserveFile "header.bmp"
 
 ;--------------------------------
