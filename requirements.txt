@@ -5,6 +5,7 @@ power>=1.2
 setuptools>=0.6.34
 
 GIT
+CMAKE
 7Z
 Mingw-64
 AVR-GCC
