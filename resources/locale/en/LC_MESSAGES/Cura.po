@@ -148,7 +148,7 @@ msgstr ""
 
 #: Cura/gui/configWizard.py:434
 msgid "Other (Ex: RepRap, MakerBot, Witbox)"
-msgstr ""
+msgstr "Rigid3D"
 
 #: Cura/gui/configWizard.py:437
 msgid ""
