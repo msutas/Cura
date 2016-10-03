@@ -10,3 +10,4 @@ CMAKE
 Mingw-64
 AVR-GCC
 NSIS
+GNU gettext
