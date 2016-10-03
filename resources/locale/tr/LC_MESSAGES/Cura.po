@@ -169,7 +169,7 @@ msgstr "Hangi tür cihaza sahipsiniz: "
 #: Cura/gui/configWizard.py:434
 #, fuzzy
 msgid "Other (Ex: RepRap, MakerBot, Witbox)"
-msgstr "Diğer (Ör: RepRap, MakerBot)"
+msgstr "Rigid3D"
 
 #: Cura/gui/configWizard.py:437
 msgid ""
