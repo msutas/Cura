@@ -1363,6 +1363,9 @@ class SceneView(openglGui.glGuiPanel):
 			elif machine_type == 'Hephestos':
 				filename = resources.getPathForMesh('hephestos_platform.stl')
 				offset = [0,0,-80]
+			elif machine_type == 'Rigid3D_Zero2':
+				filename = resources.getPathForMesh('rigid3d_zero2_platform.stl')
+				offset = [5,0,-35]
 
 			if filename is not None:
 				meshes = meshLoader.loadMeshes(filename)
