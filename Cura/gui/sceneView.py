@@ -1366,6 +1366,9 @@ class SceneView(openglGui.glGuiPanel):
 			elif machine_type == 'Rigid3D_Zero2':
 				filename = resources.getPathForMesh('rigid3d_zero2_platform.stl')
 				offset = [-6,-35,0.1]
+			elif machine_type == 'Rigid3D_Mucit':
+				filename = resources.getPathForMesh('rigid3d_mucit_platform.stl')
+				offset = [0,0,19.2]				
 
 			if filename is not None:
 				meshes = meshLoader.loadMeshes(filename)
